@@ -1,0 +1,252 @@
+
+
+@import "__variable";
+@import "__default";
+
+%transition{
+	-webkit-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+%btn{
+	font-size: 18px;
+	letter-spacing: 1px;
+	border-radius: 30px;
+	padding: 5px 20px;
+	@extend %transition; 
+}
+
+header{
+	background-color: $bg_Color;
+	.navbar-brand{
+		img{
+			width: 190px;
+		}
+	}
+
+	.navbar-light{
+		.navbar-nav{
+			li{
+				.nav-link{
+					color: $primary_Color;
+					@extend %btn;
+
+					&:hover{
+						background-color:$seceondary_Color;
+						color: #fff;
+					}
+
+				}
+				&:last-child{
+					.nav-link{
+						background-color:$seceondary_Color;
+						color: #fff;
+					}
+				}
+			}
+		}
+	}
+
+	h4{
+	  color: red;
+	  font-size: 20px;
+	}
+	h1{
+	  color: $primary_Color;
+	  font-size: 60px;
+	  font-weight: 600;
+	  line-height: 1.1;
+	  span{
+	  	color: $seceondary_Color;
+	  } 
+	}
+	p{
+	  color: $primary_Color;
+	  font-size: 18px;
+	  opacity: 0.7;
+	}
+	.btn-custom{
+		background-color: $seceondary_Color;
+		color: #fff;
+		@extend %btn;
+
+		border:2px solid $seceondary_Color;
+
+		&:hover{
+		  background-color: transparent;
+		  color: $seceondary_Color;
+		}
+	}
+	img {
+    vertical-align: middle;
+    border-style: none;
+    width: 500px;
+    }
+}
+
+.books-section{
+	padding: 50px 0;
+	.book{
+		background-color: $bg_Color;
+		text-align: center;
+		padding: 35px 20px;
+		border-radius: 10px;
+		@extend %transition; 
+
+		&:hover{
+			background-color: #fff;
+			box-shadow: 0 15px 30px #00000f2e; 
+		}
+
+		img{
+			height: 80px;
+		}
+		h3{
+			font-size: 25px;
+			font-weight: 700;
+			margin: 10px 0 0;
+		}
+		p{
+		 color: $primary_Color;
+	     font-size: 18px;
+	     opacity: 0.7;
+	     margin-bottom: 0;
+		}
+	}
+}
+
+.heading{
+	padding: 50px 0;
+	text-align: center;
+	h2{
+	font-size: 45px;
+	font-weight: 700;
+	}
+}
+
+.course-section{
+	.course{
+		border-radius: 10px;
+		border: 0;
+		box-shadow: 0 15px 30px #00000f2e; 
+		.card-body{
+			img{
+				border-radius: 10px;
+
+			}
+			.card-title{
+				font-size: 22px;
+				margin: 10px 0; 
+
+			}
+			.card-text{
+				color: $primary_Color;
+	     		font-size: 18px;
+	    		opacity: 0.7;
+	    		
+			}
+			.nav{
+				margin-top: 15px;
+				align-items: center;
+				li{
+					img{ 
+						width: 25px;
+						
+					}
+					span{
+						font-size: 15px;
+						font-weight: 500;
+						margin: 10px 0;
+						}
+				}
+			}
+		}
+	}
+	.btn-custom{
+		background-color: $seceondary_Color;
+		color: #fff;
+		@extend %btn;
+
+		border:2px solid $seceondary_Color;
+
+		&:hover{
+		  background-color: transparent;
+		  color: $seceondary_Color;
+		}
+	}
+}
+
+.head{
+	padding: 15px 0;
+	text-align: center;
+	h2{
+	font-size: 45px;
+	font-weight: 700;
+	}
+}
+.testimonial-section{
+	padding: 35px 0;
+	img{}
+	p{
+	  color: $primary_Color;
+	  font-size: 18px;	
+	}
+}
+
+footer{
+	background-color: #282531;
+	color: #fff;
+	padding: 50px 0 0;
+	p{
+	 font-size: 16px;
+	 color: #fff;
+	}
+	h3{
+		font-size: 20px;
+		font-weight: 500px;
+
+	}
+	ul{
+		li{
+			a{
+			color: #ffffff;
+    		text-decoration: none;
+    		background-color: transparent;
+    		font-size: 15px;
+    		display: block;
+    		padding: 2px 0;
+    		@extend %transition;
+
+			&:hover{
+				
+				text-decoration: none;
+				color: #fff;
+				opacity: 0.8;
+			}
+
+			}
+			
+		}
+	}
+
+	.copyright{
+		padding: 30px 0;
+		text-align: center;
+		p{
+		font-size: 15px;
+	    color: #fff;
+	    margin-bottom: 0;
+	    opacity: 0.7;	
+		}
+	}
+}
+
+
+
+
+
+
+
+
+

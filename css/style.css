@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #000000;
+  line-height: 1.6; }
+
+header .navbar-light .navbar-nav li .nav-link, header .btn-custom, .course-section .btn-custom, .books-section .book, footer ul li a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+header .navbar-light .navbar-nav li .nav-link, header .btn-custom, .course-section .btn-custom {
+  font-size: 18px;
+  letter-spacing: 1px;
+  border-radius: 30px;
+  padding: 5px 20px; }
+
+header {
+  background-color: #F0FFF0; }
+  header .navbar-brand img {
+    width: 190px; }
+  header .navbar-light .navbar-nav li .nav-link {
+    color: #000000; }
+    header .navbar-light .navbar-nav li .nav-link:hover {
+      background-color: #21B573;
+      color: #fff; }
+  header .navbar-light .navbar-nav li:last-child .nav-link {
+    background-color: #21B573;
+    color: #fff; }
+  header h4 {
+    color: red;
+    font-size: 20px; }
+  header h1 {
+    color: #000000;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 1.1; }
+    header h1 span {
+      color: #21B573; }
+  header p {
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.7; }
+  header .btn-custom {
+    background-color: #21B573;
+    color: #fff;
+    border: 2px solid #21B573; }
+    header .btn-custom:hover {
+      background-color: transparent;
+      color: #21B573; }
+  header img {
+    vertical-align: middle;
+    border-style: none;
+    width: 500px; }
+
+.books-section {
+  padding: 50px 0; }
+  .books-section .book {
+    background-color: #F0FFF0;
+    text-align: center;
+    padding: 35px 20px;
+    border-radius: 10px; }
+    .books-section .book:hover {
+      background-color: #fff;
+      box-shadow: 0 15px 30px #00000f2e; }
+    .books-section .book img {
+      height: 80px; }
+    .books-section .book h3 {
+      font-size: 25px;
+      font-weight: 700;
+      margin: 10px 0 0; }
+    .books-section .book p {
+      color: #000000;
+      font-size: 18px;
+      opacity: 0.7;
+      margin-bottom: 0; }
+
+.heading {
+  padding: 50px 0;
+  text-align: center; }
+  .heading h2 {
+    font-size: 45px;
+    font-weight: 700; }
+
+.course-section .course {
+  border-radius: 10px;
+  border: 0;
+  box-shadow: 0 15px 30px #00000f2e; }
+  .course-section .course .card-body img {
+    border-radius: 10px; }
+  .course-section .course .card-body .card-title {
+    font-size: 22px;
+    margin: 10px 0; }
+  .course-section .course .card-body .card-text {
+    color: #000000;
+    font-size: 18px;
+    opacity: 0.7; }
+  .course-section .course .card-body .nav {
+    margin-top: 15px;
+    align-items: center; }
+    .course-section .course .card-body .nav li img {
+      width: 25px; }
+    .course-section .course .card-body .nav li span {
+      font-size: 15px;
+      font-weight: 500;
+      margin: 10px 0; }
+.course-section .btn-custom {
+  background-color: #21B573;
+  color: #fff;
+  border: 2px solid #21B573; }
+  .course-section .btn-custom:hover {
+    background-color: transparent;
+    color: #21B573; }
+
+.head {
+  padding: 15px 0;
+  text-align: center; }
+  .head h2 {
+    font-size: 45px;
+    font-weight: 700; }
+
+.testimonial-section {
+  padding: 35px 0; }
+  .testimonial-section p {
+    color: #000000;
+    font-size: 18px; }
+
+footer {
+  background-color: #282531;
+  color: #fff;
+  padding: 50px 0 0; }
+  footer p {
+    font-size: 16px;
+    color: #fff; }
+  footer h3 {
+    font-size: 20px;
+    font-weight: 500px; }
+  footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: transparent;
+    font-size: 15px;
+    display: block;
+    padding: 2px 0; }
+    footer ul li a:hover {
+      text-decoration: none;
+      color: #fff;
+      opacity: 0.8; }
+  footer .copyright {
+    padding: 30px 0;
+    text-align: center; }
+    footer .copyright p {
+      font-size: 15px;
+      color: #fff;
+      margin-bottom: 0;
+      opacity: 0.7; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,107 @@
+@media (max-width: 1199px){
+	
+	header h1 {
+	font-size: 40px;
+	
+}
+
+}
+
+@media (max-width: 991px){
+	
+	.navbar-nav {
+	
+	-ms-flex-direction: row;
+	flex-direction: row;
+	justify-content: center;
+}
+header h1 {
+	font-size: 35px;	
+}
+header p {
+	line-height: 1.7;
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+header .navbar-light .navbar-nav li .nav-link, .btn-custom {
+	border-radius: 30px;
+	padding: 7px 25px;
+	font-size: 13px;
+}
+.books-section .book h3 {
+	font-size: 14px;
+}
+.books-section .book p {
+	font-size: 11px;
+}
+.books-section .book img {
+	height: 60px;
+}
+
+.courses-sestion .course .card-body .card-title {
+	font-size: 17px;
+}
+.courses-sestion .course .card-body .card-text {
+	font-size: 13px;
+}
+.courses-sestion .course .card-body .btn-custom {
+	padding: 5px 20px;
+	font-size: 12px;
+}
+
+.course .card-body{padding: 10px;}
+
+}
+
+@media (max-width: 767px){
+	header .navbar-light .navbar-nav li .nav-link, .btn-custom {
+	
+	font-size: 10px;
+}
+
+header .col-md img{max-width: 300px; margin-top: 30px}
+
+header .row{text-align: center;}
+
+.book{margin-bottom: 30px}
+
+
+}
+.course{margin-bottom: 30px;}
+
+@media (max-width: 575px){
+	
+	.navbar-nav {
+	
+	-ms-flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+}
+.books-section .book h3 {
+	font-size: 15px;
+}
+.books-section .book p {
+	font-size: 13px;
+}
+header h1 {
+	font-size: 25px;	
+}
+header p {
+	line-height: 1.7;
+	font-size: 10px;
+	margin-bottom: 15px;
+}
+header h4{font-size: 12px}
+header .navbar-light .navbar-nav li .nav-link, .btn-custom {
+	
+	font-size: 9px;
+	padding: 5px 20px;
+}
+
+.testimonial-section p {
+	font-size: 13px;
+	
+}
+footer{text-align: center; margin-left: 0}
+.copyright p{font-size: 8px}
+}
